@@ -1,0 +1,62 @@
+.SearchBlock {
+    margin-left: 35%;
+}
+
+.inputBlock {
+    display: flex;
+    width: 50%;
+    margin-top: 30%;
+    align-items: center;
+
+}
+
+.inputBlock input {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #706F80;
+    border-radius: 128px;
+}
+
+#serchButton {
+    margin-left: 40px;
+    background: #FDAE55;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: none;
+    color: #F9F8F8;
+}
+
+.buttonsBlock {
+    height: 30px;
+    width: 50%;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+#sortButton {
+    text-transform: capitalize;
+
+    background: #CB95AA;
+    border-radius: 90px;
+    border: none;
+    margin-right: 7%;
+    color: #F9F8F8;
+}
+
+#filterButton {
+    text-transform: capitalize;
+    background: #633E5A;
+    border-radius: 75px;
+    border: none;
+    margin-right: 7%;
+    color: #F9F8F8;
+}
+
+#cancelButton {
+    text-transform: capitalize;
+    color: #BEBEBE;
+    background-color: none;
+    border: none;
+}

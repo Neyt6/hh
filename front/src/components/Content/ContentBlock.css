@@ -1,0 +1,56 @@
+.ContentBlock {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.postBlock {
+    margin: 3%;
+    border: 1px solid #BEBEBE;
+    border-radius: 42px;
+}
+
+.postBlock div {
+    margin: 20px;
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #151329;
+}
+
+.price {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #151329;
+}
+
+.text {
+    font-family: "Anonymous Pro";
+    font-size: 16px;
+    color: #151329;
+
+}
+
+.orgName {
+    font-family: "Anonymous Pro";
+    font-size: 16px;
+    color: #0F0F0F;
+}
+
+.postBlock button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #FDAE55;
+    color: #0F0F0F;
+    border-radius: 75px;
+    height: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+
+}
